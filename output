@@ -5,7 +5,7 @@ host val[] alloc size =20772864
 host cols[] alloc size =20772864
 host rowDelimiters[] alloc size =64516
 kernel exe time in seconds (average over 5 repeats): 1.12693
-==PROF== Connected to process 2601
+==PROF== Connected to process 2601 
 ==PROF== Disconnected from process 2601
 "ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
 "0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","GPU Speed Of Light","Memory Frequency","cycle/second","858030168.59"
