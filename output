@@ -1,0 +1,10 @@
+==PROF== Connected to process 2273
+spmv_NBLOCKS =2016
+numRows =16128
+nItems=5193216
+host val[] alloc size =20772864
+host cols[] alloc size =20772864
+host rowDelimiters[] alloc size =64516
+kernel exe time in seconds (average over 5 repeats): 0.226586
+==PROF== Disconnected from process 2273
+==PROF== Report: ./output.log.2.nsight-cuprof-report
