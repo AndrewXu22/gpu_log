@@ -1,10 +1,48 @@
-==PROF== Connected to process 2273
 spmv_NBLOCKS =2016
 numRows =16128
 nItems=5193216
 host val[] alloc size =20772864
 host cols[] alloc size =20772864
 host rowDelimiters[] alloc size =64516
-kernel exe time in seconds (average over 5 repeats): 0.226586
-==PROF== Disconnected from process 2273
-==PROF== Report: ./output.log.2.nsight-cuprof-report
+kernel exe time in seconds (average over 5 repeats): 1.12693
+==PROF== Connected to process 2601
+==PROF== Disconnected from process 2601
+"ID","Process ID","Process Name","Host Name","Kernel Name","Kernel Time","Context","Stream","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","GPU Speed Of Light","Memory Frequency","cycle/second","858030168.59"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","GPU Speed Of Light","SOL FB","%","52.96"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","GPU Speed Of Light","Elapsed Cycles","cycle","92320"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","GPU Speed Of Light","SM Frequency","cycle/second","1276688664.60"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","GPU Speed Of Light","Memory [%]","%","75.22"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","GPU Speed Of Light","Duration","nsecond","72128"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","GPU Speed Of Light","SOL L2","%","31.37"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","GPU Speed Of Light","SOL TEX","%","41.12"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","GPU Speed Of Light","SM Active Cycles","cycle","76037.25"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","GPU Speed Of Light","SM [%]","%","16.84"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Compute Workload Analysis","Executed Ipc Active","inst/cycle","0.43"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Compute Workload Analysis","Executed Ipc Elapsed","inst/cycle","0.35"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Compute Workload Analysis","Issue Slots Max","%","12.34"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Compute Workload Analysis","Issued Ipc Active","inst/cycle","0.43"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Compute Workload Analysis","Issue Slots Busy","%","10.71"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Compute Workload Analysis","SM Busy","%","20.39"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Memory Workload Analysis","Memory Throughput","byte/second","660890417036.38"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Memory Workload Analysis","Mem Busy","%","33.96"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Memory Workload Analysis","Max Bandwidth","%","75.22"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Memory Workload Analysis","L2 Hit Rate","%","33.46"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Memory Workload Analysis","Mem Pipes Busy","%","12.13"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Memory Workload Analysis","L1 Hit Rate","%","75.60"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Scheduler Statistics","Active Warps Per Scheduler","warp","13.62"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Scheduler Statistics","Eligible Warps Per Scheduler","warp","0.24"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Scheduler Statistics","No Eligible","%","89.25"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Scheduler Statistics","Instructions Per Active Issue Slot","inst/cycle","1"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Scheduler Statistics","Issued Warp Per Scheduler","","0.11"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Scheduler Statistics","One or More Eligible","%","10.75"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Warp State Statistics","Avg. Not Predicated Off Threads Per Warp","","24.84"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Warp State Statistics","Avg. Active Threads Per Warp","","29.54"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Warp State Statistics","Warp Cycles Per Executed Instruction","cycle","127.08"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Warp State Statistics","Warp Cycles Per Issued Instruction","","126.75"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Warp State Statistics","Warp Cycles Per Issue Active","","126.75"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Instruction Statistics","Avg. Executed Instructions Per Scheduler","inst","8120.74"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Instruction Statistics","Executed Instructions","inst","2598638"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Instruction Statistics","Avg. Issued Instructions Per Scheduler","inst","8141.99"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Instruction Statistics","Issued Instructions","inst","2605437"
+"0","2601","spmv.out","127.0.0.1","spmv_kernel","2019-May-28 20:52:37","1","7","Launch Statistics","Block Size","","256"
